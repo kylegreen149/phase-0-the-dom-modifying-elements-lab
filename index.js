@@ -1,7 +1,8 @@
-// Write your code here!
-const noMainId = document.getElementById("main").remove()
+//Write code here
+document.getElementById("main").remove()
 
 const newHeader = document.createElement("h1")
-newHeader.innerHTML = "Kyle is the champion"
-newHeader.setAttribute("id", 'victory')
+newHeader.id = "victory"
+newHeader.querySelector("h1")
+newHeader.textContent = "Kyle is the champion"
 document.body.append(newHeader)
